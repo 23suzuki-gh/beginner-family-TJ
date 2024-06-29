@@ -9,7 +9,8 @@ window = tkinter.Tk()
 window.geometry("400x400")
 window.title("Screen Transition")
 
-# 遷移前の画面の作成                                                            
+# 遷移前の画面の作成   
+# # 遷移前の画面の作成                                                            
 canvas1 = tkinter.Canvas(background="#cea", width=400, height=400)
 canvas1.place(x=0, y=0) # キャンバス                                            
 label1 = tkinter.Label(canvas1, text="遷移する前の画面です。") # テキスト       
